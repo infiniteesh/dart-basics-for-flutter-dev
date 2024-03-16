@@ -1,0 +1,33 @@
+void main()
+{
+  // varaibles
+  
+  
+  String greeting = "hello world";
+  print(greeting);
+  
+  // now to print greeting yooo : we wont be using greeting + yoooo as it will throw error 
+  
+  greeting = '${greeting} yooo';
+  print(greeting);
+  
+  // to write normal $ sign in dart
+  
+  String dollasign = "\$69";
+  print(dollasign);
+  
+  // to write multiline strings
+  
+  String var1 = '''hello
+  world
+  hey hey''';
+  print(var1);
+  
+  // we can use \n : for new line
+  dynamic stringVar = "hola";
+  stringVar = 10; // we can change dynamic datatype from string to int or anything to anything
+  print(stringVar);
+  
+  
+  
+}
