@@ -1,0 +1,55 @@
+void main()
+{
+  // new way to declare a variable
+  // var/final/const varaibleName = value;
+  
+  var someValue = 10; // this is not dynamic 
+  print(someValue); // dart has identified that this datatype is integer]
+  
+  var someVal = 19;
+  print(someVal);
+  
+  someVal = 09;
+  print(someVal); // we can reassign the value of var datatypes
+  
+  
+  var somevalue1 = '10';
+  var somevalue2 = '10';
+  var somevalue3 = '10'; // all are string value
+  
+  // now lets see we can reassign them or not
+  
+  somevalue1 = '1000';
+  somevalue2 = '1000';
+  somevalue3 = '1000';
+  
+  print(somevalue1);
+  print(somevalue2);
+  print(somevalue3);
+  
+  
+  // as we see they all are var : so we can clearly reassign them , but we cannot reassign final , const : datatypes , as final has the final value and const has a constant value
+  
+  final newvar = '10';
+  const newvar2 = '90';
+  
+  //.....................................
+  
+  // newvar = '9090';
+  // newvar2 = '7676';
+  
+  // print(newvar);
+  // print(newvar2);
+  
+  //......................................
+  
+  // the above code will throw error as we couldnt reassign final and const values
+  
+  // var is mutable , final and const are immutable
+  
+  
+  
+  
+  
+  
+}
