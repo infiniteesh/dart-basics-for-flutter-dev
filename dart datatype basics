@@ -1,0 +1,80 @@
+void main()
+{
+  
+  
+  
+  // single line comment
+  
+  /* multiline 
+   * comment */
+  
+  print("hello world");
+  print(4+6);
+  
+  /* varaible
+   * <datatype> <varaible name> = value; */
+  
+  // double for decimal number , fractional number 
+  // int for integer varaibles
+  
+  int firstvariable = 303;
+  int secondvariable = 51;
+  
+  print(firstvariable);
+  print(secondvariable);
+  
+  double var1 = 102.33;
+  double var2 = 234.56;
+  
+  print(var1+var2);
+  
+  // string datatype , anything " " or ' ' is string
+  // bool stands for boolean
+  
+  bool firstvalue = true;
+  
+  // true and false are keyword in dart
+  
+  bool isadult = false;
+  print(isadult);
+  
+  // dynamic datatype in dart
+  
+  dynamic somevalue = 10.5;
+  print(somevalue);
+  
+  //dynamic varaible can hold any value int,double,string,bool , not much recommended to use
+  
+    print(somevalue.abs()); // abs not working with dynamic but it will work with double
+  
+  int value = 10;
+  print(value.isOdd); // we can use lots of other properties when we specify proper datatypes rather than dynamic datatype
+  
+  // naming convention : use camel case
+  // like isEmpty , isNotEmpty : first small other word starting capitol
+  
+  // int firstValue = 20;
+  // int firstValue = 30;
+  
+  //error : if you already have varaible defined you cannot rename , dart is case sensitive too
+  
+  // so better to use distinguishable varaible name : var and Var are two different varaible
+  
+  // reassigning a varaible
+  
+  int firstvar = 10;
+  print(firstvar);
+  
+  firstvar = 100; // while reassigning dont specify datatype
+  print(firstvar);
+  
+  // or increasing value of varaible
+  
+  int firstvari = 10;
+  print(firstvari);
+  
+  firstvari = firstvari+90;// while reassigning dont specify datatype
+  // or firstvari +=90 , firstvari -=90
+  print(firstvari);
+  
+}
