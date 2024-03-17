@@ -1,0 +1,22 @@
+String? somevalue;
+
+//? as it is optional varaible
+
+void main()
+{
+  //optional varaible
+  
+  print(somevalue);
+  
+  somevalue = null;
+  
+  print(somevalue?.length??0);
+  
+  //length??0 means if the value of optional varaible is null print '0' instead null
+  
+  somevalue = 'hellllo';
+  
+  print(somevalue?.length??1);
+  
+   //length??1 means if the value of optional varaible is null print '1' instead null
+}
