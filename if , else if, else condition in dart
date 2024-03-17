@@ -1,0 +1,23 @@
+
+void main()
+{
+  // if statement
+  
+  int age = 21;
+  if(age>=18)
+  {
+    print('adult');
+  }
+  if(age>=21)
+  {
+    print('21 adult age');
+  }  // all if condition gets executed 
+  else if(age>=30)
+  {
+    print('30 adult');
+  } // else if condition gets executed only if above if, else if doesn't return true 
+  else
+  {
+    print('child');
+  }  // else condition gets executed when all above conditions doesnt equals true
+}
