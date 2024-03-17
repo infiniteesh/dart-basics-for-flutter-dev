@@ -1,0 +1,47 @@
+void main() {
+ 
+  
+ // optional varaible ; can have two values
+  // string / int / boolean / null
+  
+  String somevalue = ' ';
+  print(somevalue);
+  
+  // to assign null , we use optional varaible with a sign of ? ahead of datatype
+  
+  String? someval;
+  print(someval); // this will print 'null'
+  
+  // we can also print null as
+  
+  String? somebal = null;
+  print(somebal);
+  
+  somebal = 'hello me';
+  print(somebal);
+  
+  somebal = null; // dart knows that the value is set to null so cannot check properties of null by print(somebal.length) X
+  
+  print(somebal);
+  
+  
+  // String? something  = null;
+  // print(something.length); we cannot access properties for null
+  
+  String? something = null;
+  print(something?.length); // output > null
+  
+  // print(something?.length); this means that if the value of something is null then print null if not null then print the properties value of something
+  
+  something = 'helloeo';
+  print(something?.length); // output > 7
+  
+  
+  
+  
+  
+  
+     
+     
+  
+}
