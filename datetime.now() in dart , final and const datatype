@@ -1,0 +1,37 @@
+void main() {
+ 
+  
+  // understanding final and count datatype
+  final somevalue = DateTime.now(); // using datenow() to get current time
+  // const somevalue3 = DateTIme.now(); (commented as it will create error)
+  
+  //final will not give an error but constant will give error
+  
+  // datetime.now retreives current date and time value at runtime so its value cannt be known known until program is run, 
+  
+  // final is a run time constant
+  // const is a compile time constant
+  
+  // we are assigning runtime varaible like datetime now to const thats why its throwing error
+  
+  const someanothervalue = '10';
+  
+  
+  
+  
+  print(somevalue);
+ //  print(somevalue3); (commented as it will create error)
+  
+  print(someanothervalue);
+  
+  /*
+   * we can also write
+   * final DateTime someValue = DateTime.now();
+   * const String someValue1 = DateTime.now();
+   * 
+   * but we wont be writing additional datetime , string after final and const as dart will automatically handle the datatype
+   * */
+     
+     
+  
+}
