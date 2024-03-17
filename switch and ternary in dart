@@ -1,0 +1,63 @@
+void main()
+{
+  String someVal = 'Hi!';
+  if(someVal == 'Hi!');
+  {
+    print("wow");
+  }
+    if(someVal != 'fexy');
+  {
+    print("another wow");
+  }
+  if(someVal.startsWith("H"));
+  {
+    print("more wow");
+  }
+  if(someVal.endsWith("!"));
+  {
+    print("end wowo");
+  }
+  
+  
+  // ternary operator in dart
+  
+  String value = someVal.startsWith('H') ? 'yes it starts with H' : 'no it not starts with H';
+  
+  print(value);
+  
+  String value1 = someVal.endsWith('e') ? 'yes it ends with e' : 'no it not ends with e';
+  
+  print(value1);
+  
+  // switch statement 
+  
+  switch(someVal)
+  {
+    case 'Hi!':
+      print("hello");
+      // no need to put break here like c/cpp , only need to write break when case is empty
+    case 'Hi!!':
+      print("hello!!");
+    case 'Hi!!!!':
+      print("hello!!!");
+    case 'Hi!!!!!':
+      break;
+    default:
+      print('bhai mai toh default case hu!');
+  }
+  
+  // using 'when ' condition with switch
+  
+  int age = 20;
+  switch(someVal)
+  {
+    case 'Hi!' when age<=20:
+      print('yeppp');
+    case 'Hi!!!':
+      break;
+    case 'Hi!!!!!':
+      print("hohohoho");
+    default:
+      print('bhai default hai');
+  }
+}
