@@ -1,0 +1,23 @@
+void main()
+{
+  String destinationZone = 'PQR';
+  double weightinKG = 6;
+  
+  if(destinationZone == 'PQR')
+  {
+    print('Shipping Cost : ${weightinKG*10}');
+    // we used $ for concatanation of string
+  }
+  if(destinationZone == 'XYZ')
+  {
+    print('Shipping Cost : ${weightinKG*5}');
+    // we used $ for concatanation of string
+  }
+  if(destinationZone == 'ABC')
+  {
+    print('Shipping Cost : ${weightinKG*7}');
+    // we used $ for concatanation of string
+  }
+  
+  
+}
