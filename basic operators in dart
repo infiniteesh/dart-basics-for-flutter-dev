@@ -1,0 +1,31 @@
+bool isAdult = false;
+void main()
+{
+  int age = 12;
+  
+  if(isAdult)
+  {
+    print('adult 21'); // is adult is false so we will shift to else if 
+  }
+  else if (age>=18){
+    print('adult');   // age is 12 so we shift to else
+  }
+  else
+  {
+    print('child');
+  }
+  
+  // ........................................
+  /* == relational operator
+   * = assignment operator
+   * != not equal to
+   * ! stands for NOT 
+   * '!isAdult' reverses the value of 'isAdult'
+   * && and operator
+   * || or operator
+   * | bitwise or
+   * */
+  
+
+  
+}
