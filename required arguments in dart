@@ -16,3 +16,6 @@ void printName({required String name , required int roll , required String greet
  
   print(name);
 }
+
+// void printName({required String name , required int? roll , required String greet})
+// here '?' is mentioned in int? as in int roll number if the user didn't enter any integer value by default it will accept null. we can use it with any datatype
