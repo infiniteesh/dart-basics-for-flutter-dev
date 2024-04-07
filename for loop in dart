@@ -1,0 +1,28 @@
+//loops in dart
+
+void main()
+{
+  // for loop
+  
+  for(int i = 0 ; i<=10 ; i++)
+  {
+    print("HELLO WORLD");
+    
+  }
+  
+  for(int i = 0 ; i<=10 ; i++)
+  {
+    // '$' sign used for string interpretation
+    print('hello world $i');
+    
+  }
+  
+  for(int i = 0 ; i<=10 ; i++)
+  {
+    // '$' sign used for string interpretation
+    print('hello world ${i+1}');
+    
+  }
+  
+  
+}
