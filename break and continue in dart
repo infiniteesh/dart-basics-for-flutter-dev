@@ -1,0 +1,29 @@
+//break and continue in dart
+
+void main()
+{
+  String value = 'Hello';
+  
+  for(int i=0; i<value.length;i++)
+  {
+    if(i==1 || i==2 || i==3)
+    {
+      continue;
+      // continue will skip printing letters when i = 1 or 2 or 3 so it will only print 'H' and 'O'
+    }
+    print(value[i]);
+  }
+  
+  
+   for(int j=0; j<value.length;j++)
+  {
+    if(j==1 || j==2 || j==3)
+    {
+      break; // break will throw you out of loop as the first condition i=1 will meet , so it will only print 'H'
+    }
+    print(value[j]);
+  }
+  
+  
+  
+}
