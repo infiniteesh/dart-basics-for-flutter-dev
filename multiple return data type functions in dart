@@ -1,0 +1,42 @@
+// returning two or more types of data in a single function
+
+
+void main()
+{
+  var name = printName();
+  print(name);
+  var name2 = multiFunc();
+  print(name2);
+  
+  print(name2.$1);
+
+  print(name2.$2);
+  
+  //destructuring multi datatypes function
+  
+  var (age, namehuh , isAdult , greetings ) = multiFunc();
+  
+  
+  print(name);
+  print(namehuh);
+  print(isAdult);
+  print(greetings);
+}
+
+(int, String) printName()
+{
+  return (1,'Nitish');
+}
+
+(int , String, bool , String) multiFunc()
+{
+  return (1,'Nitish',true,'Hello');
+}
+
+// returning null in a fucntion 
+
+String? nullreturnFunc()
+{
+  return null; // or simply keep whole function statement blabk 'no return null'
+// return null ends the function so we cannot write any code in function after returning null
+}
