@@ -1,0 +1,25 @@
+
+
+void main()
+{
+  String name = 'Nitish Gupta';
+  printName(name); // jump to function and print the name = infiniteesh defined in func 
+  print(name); // after the function gets called , this name = nitish gupta in main scope gets printed
+  
+  myFunc('Nitish', 21 , 'Whats good everyone');
+  
+  
+}
+
+void printName(String name)
+{
+  name = "Infiniteesh";
+  print(name);
+}
+
+void myFunc(String name , int roll , String greeting) // positional arguments
+{
+  // print(name, roll , greeting); it causes error as too many positional arguments
+  print(roll); // this will work
+ 
+}
