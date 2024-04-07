@@ -1,0 +1,18 @@
+
+
+void main()
+{
+  String name = 'Nitish Gupta';
+  printName(roll : 21, name : 'Nitish' , greet : 'whats good everyone'); 
+ 
+}
+
+
+// creating required arguments : means they are mandatory to be specified , they are passed in ( {} )
+// in required arguments we dont have to match the positions while putting actual arguments
+
+void printName({required String name , required int roll , required String greet})
+{
+ 
+  print(name);
+}
