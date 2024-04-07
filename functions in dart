@@ -1,0 +1,24 @@
+// functions in dart 
+
+
+void main()
+{
+  greetings();
+  
+  print(printNumber());
+  
+}
+
+// void is used when function has no return type , not even null
+
+void greetings()
+{ 
+  print("Hello");
+}
+
+int printNumber()
+{
+  return 12;
+  // return is used to just hold the returnded value of function 
+  
+}
