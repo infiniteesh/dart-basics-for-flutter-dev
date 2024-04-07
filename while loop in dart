@@ -1,0 +1,17 @@
+//loops in dart
+
+void main()
+{
+  
+  String value = 'Hello';
+  
+  //while loop
+  
+  int i = 0;
+  while(i<value.length) //value length = 5
+  {
+    print(value[i]);
+    i++;
+  }
+  
+}
