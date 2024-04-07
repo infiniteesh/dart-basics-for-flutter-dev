@@ -1,0 +1,25 @@
+//loops in dart
+
+void main()
+{
+  String value = 'Hello';
+  
+  // do while loop in dart , entry controlled loop : for and while
+  int i =0;
+  do{
+    print(value[i]);
+    i++;
+  }while(i<value.length);
+  
+  
+  // do while is exit controlled loop means the condition is checked only after the loop has runned 
+  
+   int j =0;
+  do{
+    print(value[j]);
+    j++;
+  }while(j!=j); // its a false condition but still the loop will run atleast once
+  
+  
+  
+}
