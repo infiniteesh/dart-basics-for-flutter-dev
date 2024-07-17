@@ -1,0 +1,22 @@
+void main()
+{
+  var name = printName();
+  print(name);
+  
+  var name2 = printName2();
+  print(name2.$3); //$3 will print third value which is 'false'
+  
+}
+
+// returning two or more datatypes from same function
+
+(int , String) printName(){
+  return(12, 'Rivaan');
+}
+
+// (int , String , bool , String) called records
+
+(int , String , bool , String) printName2(){
+  
+  return(12,'Nitish', false, 'Hi');
+}
